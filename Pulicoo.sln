@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pulicoo", "Pulicoo\Pulicoo.csproj", "{7FE96AB6-5EC0-4DFD-BA96-A0CF66AB93FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE96AB6-5EC0-4DFD-BA96-A0CF66AB93FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE96AB6-5EC0-4DFD-BA96-A0CF66AB93FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE96AB6-5EC0-4DFD-BA96-A0CF66AB93FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE96AB6-5EC0-4DFD-BA96-A0CF66AB93FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB94D4AB-CD29-4503-AE3B-6150CD5E80E2}
+	EndGlobalSection
+EndGlobal
