@@ -1,5 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body {
 font-family: 'Shadows Into Light', cursive;
@@ -13,8 +12,6 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   font-size: 14px;
 }
@@ -40,15 +37,12 @@ button.accept-policy {
   line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
@@ -56,13 +50,11 @@ body {
   bottom: 0;
   width: 100%;
   white-space: nowrap;
-  /* Set the fixed height of the footer here */
   height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+  line-height: 60px;
 }
 
 
-/* Chat containers */
 #chat .container {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
@@ -80,20 +72,17 @@ body {
 
 }
 
-/* Darker chat container */
 #chat .darker {
     border-color: #fff;
     background-color: #007bff;
 }
 
-/* Clear floats */
 #chat .container::after {
     content: "";
     clear: both;
     display: table;
 }
 
-/* Style images */
 #chat .container img {
     float: left;
     max-width: 60px;
@@ -102,20 +91,17 @@ body {
     border-radius: 50%;
 }
 
-    /* Style the right image */
     #chat .container img.right {
         float: right;
         margin-left: 20px;
         margin-right: 0;
     }
 
-/* Style time text */
 #chat .time-right {
     float: right;
     color: #aaa;
 }
 
-/* Style time text */
 #chat .time-left {
     float: left;
     color: #999;
